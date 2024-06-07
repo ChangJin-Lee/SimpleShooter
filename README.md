@@ -13,6 +13,16 @@ https://velog.io/@whoamicj/posts?tag=UE5
 
 </br>
 
+## What I Learning?
+
+ - alsV4
+ - Retargeting
+ - 3D Model bone
+ - GAS
+ - Unreal C++
+
+</br>
+
 ## What I Learned?
 
 - Player movement
@@ -23,3 +33,5 @@ https://velog.io/@whoamicj/posts?tag=UE5
 - Win / Lose conditions
 
 </br>
+
+
