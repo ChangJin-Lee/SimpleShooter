@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Base_Character.h"
+#include "SimpleShooterGameMode.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 ABase_Character::ABase_Character()
@@ -28,6 +29,7 @@ void ABase_Character::BeginPlay()
 		Gun->SetOwner(this);
 		Gun->SetActorHiddenInGame(true);
 		GunArray.Add(Gun);
+		UE_LOG(LogTemp, Warning, TEXT("Spawn Guns  %s"), *Gun->GetName());
 	}
 	
 	// GunArray[WeaponActiveIndex]->SetActorHiddenInGame(false);
@@ -53,10 +55,9 @@ void ABase_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 void ABase_Character::Shoot()
 {
 	if(IsArmed)
-	{
+	{ 
 		GunArray[WeaponActiveIndex]->PullTrigger();
 	}
-	UE_LOG(LogTemp, Warning, TEXT("You Pull the Trigger!"));
 }
 
 
@@ -69,16 +70,17 @@ float ABase_Character::TakeDamage(float DamageAmount, struct FDamageEvent const&
 	
 	UE_LOG(LogTemp, Warning, TEXT("Health Left : %f"), Health);
 
-	// if(IsDead())
-	// {
-	// 	ASimpleShooterGameMode *GameMode = GetWorld()->GetAuthGameMode<ASimpleShooterGameMode>();
-	// 	if(GameMode != nullptr)
-	// 	{
-	// 		GameMode->PawnKilled(this);
-	// 	}
-	// 	DetachFromControllerPendingDestroy();
-	// 	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	// }
+	if(IsDead())
+	{
+		ASimpleShooterGameMode *GameMode = GetWorld()->GetAuthGameMode<ASimpleShooterGameMode>();
+		if(GameMode != nullptr)
+		{
+			GameMode->PawnKilled(this);
+		}
+		DetachFromControllerPendingDestroy();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		OnDead();
+	}
 	
 	return DamageToApplied;
 }
@@ -112,15 +114,48 @@ void ABase_Character::ChangeWeapon()
 	{
 		if(WeaponIndex == WeaponActiveIndex)
 		{
-			if(IsArmed)
-			{
-				GunArray[WeaponIndex]->SetActorHiddenInGame(false);
-			}
+			GunArray[WeaponIndex]->SetActorHiddenInGame(false);
 		}
 		else
 		{
 			GunArray[WeaponIndex]->SetActorHiddenInGame(true);
-			
 		}
 	}
+}
+
+void ABase_Character::HideAllWeapons()
+{
+	for(int32 WeaponIndex = 0 ; WeaponIndex < GunArray.Num(); WeaponIndex++)
+	{
+		GunArray[WeaponIndex]->SetActorHiddenInGame(true);
+	}
+}
+
+void ABase_Character::SetOverLayString(FString st)
+{
+	OverLayString = st;
+}
+
+void ABase_Character::AdjustOverLay()
+{
+	if(OverLayString == "Rifle")
+	{
+		ToggleIsArmed();
+		ChangeWeapon();
+	}
+	else
+	{
+		ToggleIsArmed();
+		HideAllWeapons();
+	}
+}
+
+bool ABase_Character::GetIsAICharacter()
+{
+	return IsAICharacter;
+}
+
+void ABase_Character::ToggleIsArmed()
+{
+	IsArmed = !IsArmed;
 }
