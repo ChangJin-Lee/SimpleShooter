@@ -37,3 +37,10 @@ https://velog.io/@whoamicj/posts?tag=UE5
 </br>
 
 
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+### Usage and Redistribution
+
+You are free to use, modify, and distribute this software under the terms of the Apache License 2.0. Please include proper attribution and a copy of the license in any distributions.
