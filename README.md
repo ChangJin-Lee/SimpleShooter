@@ -34,7 +34,7 @@
 - [Pull Request #3](https://github.com/ChangJin-Lee/Project-Lena/pull/3)
   
 ### In Progress
-- [Pull Request #3](https://github.com/ChangJin-Lee/Project-Lena/pull/4)
+- [Pull Request #4](https://github.com/ChangJin-Lee/Project-Lena/pull/4)
 
 ---
 
