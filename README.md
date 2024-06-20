@@ -35,10 +35,12 @@
   
 ### In Progress
 - [Pull Request #4](https://github.com/ChangJin-Lee/Project-Lena/pull/4)
+- [Pull Request #5](https://github.com/ChangJin-Lee/Project-Lena/pull/5)
 
 ---
 
 ## Development Diaries
+- **2024.06.21 [#9 재장전 기능 및 애니메이션 구현](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-6-%EC%9E%AC%EC%9E%A5%EC%A0%84-%EA%B8%B0%EB%8A%A5-%EB%B0%8F-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EA%B5%AC%ED%98%84)**
 - **2024.06.18 [#8 Ammo 시스템 구현과 아이템 획득 기능 추가](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-5-Ammo-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%ED%98%84%EA%B3%BC-%EC%95%84%EC%9D%B4%ED%85%9C-%ED%9A%8D%EB%93%9D-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80)**
 - **2024.06.16 [#7 다양한 적 캐릭터 등장과 무기 조준 문제 해결](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-4-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A0%81-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%93%B1%EC%9E%A5%EA%B3%BC-%EB%AC%B4%EA%B8%B0-%EC%A1%B0%EC%A4%80-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)**
 - **2024.06.10 [#6 TPS 게임의 적 캐릭터 적용하기](https://velog.io/@whoamicj/UE5-TPS-%EA%B2%8C%EC%9E%84%EC%9D%98-%EC%A0%81-%EC%BA%90%EB%A6%AD%ED%84%B0%EC%97%90-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%AA%A8%EB%8D%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-ALS-V4%EC%99%80-VRoid-%EB%A6%AC%ED%83%80%EA%B8%B0%ED%8C%85-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C)**
