@@ -33,16 +33,20 @@
 ### Merged
 - [Pull Request #2](https://github.com/ChangJin-Lee/Project-Lena/pull/2)
 - [Pull Request #3](https://github.com/ChangJin-Lee/Project-Lena/pull/3)
-  
-### In Progress
 - [Pull Request #4](https://github.com/ChangJin-Lee/Project-Lena/pull/4)
 - [Pull Request #5](https://github.com/ChangJin-Lee/Project-Lena/pull/5)
+
+### In Progress
+- [Pull Request #6](https://github.com/ChangJin-Lee/Project-Lena/pull/6)
+
 
 ---
 ### SimpleShooter 총 개발 기간: 2024.04.25 ~ 2024.05.21
 ### Project-Lena 총 개발 기간: 2024.06.04 ~ 현재
 
 ## Development Diaries
+- **2024.06.27 [#11 퍼즐 기믹 완성 및 추가된 기능들](https://velog.io/@whoamicj/UE5-Dev-Diary-8-%ED%8D%BC%EC%A6%90-%EA%B8%B0%EB%AF%B9-%EC%99%84%EC%84%B1-%EB%B0%8F-%EC%B6%94%EA%B0%80%EB%90%9C-%EA%B8%B0%EB%8A%A5%EB%93%A4)**
+- **2024.06.24 [#10 재장전 기능 수정, Muzzle Effect 변경, Hit Effect 변경, 배경음 추가](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-7-AI-%EC%9E%AC%EC%9E%A5%EC%A0%84-%EA%B8%B0%EB%8A%A5-Muzzle-Effect-%EB%B3%80%EA%B2%BD-Hit-Effect-%EB%B3%80%EA%B2%BD-%EB%B0%B0%EA%B2%BD%EC%9D%8C-%EC%B6%94%EA%B0%80)**
 - **2024.06.21 [#9 재장전 기능 및 애니메이션 구현](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-6-%EC%9E%AC%EC%9E%A5%EC%A0%84-%EA%B8%B0%EB%8A%A5-%EB%B0%8F-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EA%B5%AC%ED%98%84)**
 - **2024.06.18 [#8 Ammo 시스템 구현과 아이템 획득 기능 추가](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-5-Ammo-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%ED%98%84%EA%B3%BC-%EC%95%84%EC%9D%B4%ED%85%9C-%ED%9A%8D%EB%93%9D-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80)**
 - **2024.06.16 [#7 다양한 적 캐릭터 등장과 무기 조준 문제 해결](https://velog.io/@whoamicj/UE5-Lena-Dev-Diary-4-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A0%81-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%93%B1%EC%9E%A5%EA%B3%BC-%EB%AC%B4%EA%B8%B0-%EC%A1%B0%EC%A4%80-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)**
