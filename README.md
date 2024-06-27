@@ -3,7 +3,8 @@
 
 ---
 
-![Group 10](https://github.com/ChangJin-Lee/Project-Lena/assets/54494793/0de8d96d-7258-4aa2-ba0d-aa82ab008d3f)
+![Group 15](https://github.com/ChangJin-Lee/Project-Lena/assets/54494793/128908f4-c239-4f04-9c20-dc890a5b0cbf)
+
 
 자세한 내용은 블로그를 참고해주세요: [Velog](https://velog.io/@whoamicj/posts?tag=UE5)
 
